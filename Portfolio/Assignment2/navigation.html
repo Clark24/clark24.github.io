@@ -1,0 +1,21 @@
+<header>
+    <ul class="breadcrumbs">
+      <li> <a href="home.php">Home</a></li>
+      <li> <a href="poi.php">Points of Interest</a></li>
+      
+      	<?php
+      	if ($_SESSION['admin']==1){
+         echo "<li><a href=admin.php>Admin</a></li>";
+         }
+         
+         if (isset($_SESSION['user'])){
+         	    echo "<li><a href=fav.php>Favourites</a></li>";
+         	    echo "<li><a href=logout.php>Log out</a></li>";
+         	}else{
+         	echo "<a href=ISDwk9.php>Log In</a>";
+         	}
+         
+         	?>
+         	
+    </ul>
+  </header>

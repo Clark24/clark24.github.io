@@ -1,0 +1,29 @@
+body{
+	color: #375e97;
+	background-color:#ebdcb2 ;
+}
+.hover{
+	color: red;
+}
+img{
+	padding: 5px;
+	border: 10px;
+}
+h5{
+	text-decoration: underline;
+	color: #662e1c;
+}
+h1{
+	color: #662e1c;
+}
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
